@@ -1,0 +1,23 @@
+baseURL = "https://kimvanwyk.co.za/"
+languageCode = "en-za"
+title = "Kim van Wyk's home on the web"
+theme = "beautifulhugo"
+
+[Params]
+  DateFormat = "2 Jan 2006"
+  rss = true
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = false
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = false
+
+[Author]
+   name = "Kim van Wyk"
+   website = "https://kimvanwyk.co.za"
+   # email = "vanwykk@gmail.co.za"
+   github = "kimvanwyk"
+   gitlab = "kimvanwyk"
+   twitter = "kim_vanwyk"
