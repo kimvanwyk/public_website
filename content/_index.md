@@ -10,7 +10,7 @@ This site is a replacement for an ancient and creaking Wordpress site which fina
 
 You can have a look at various pieces of code and software projects I've written or contributed to at [my GitHub account](https://github.com/kimvanwyk). I use GitHub as a mirror from [my GitLab account](https://gitlab.com/kimvanwyk) - all my own projects are at GitLab.
 
-I have an infrequenty posted-to [Twitter account](https://twitter.com/kim_vanwyk).
+I have an infrequently posted-to [Twitter account](https://twitter.com/kim_vanwyk).
 
 I've presented a few talks at conferences, including [PyConZA](https://za.pycon.org/):
 
