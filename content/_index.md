@@ -17,5 +17,7 @@ I've presented a few talks at conferences, including [PyConZA](https://za.pycon.
 * At the 2019 in-person PyConZA: [Automating infrastructure at SA Home Loans with Python (and friends)](https://www.youtube.com/watch?v=BT8Pxayqh84)
 * At the 2020 virtual PyConZA: [Laying some of the foundations so your fellow developers can start on the ground floor](https://www.youtube.com/watch?v=l8WmOM5Pukc)
 
+It was a great pleasure to be a guest host on [Episode 310](https://talkpython.fm/episodes/show/310/ama-ask-me-anything-with-michael) of Michael Kennedy's consistently excellent Talk Python To Me podcast.
+
 I spend some of my spare time serving people in need as an active member and current president of the [North Durban Lions Club](https://northdurbanlions.org.za/). I have also been privileged to be involved for many years at the Lions District level for [District 410E](https://lions410e.org.za/), including serving as [District Governor](https://members.lionsclubs.org/EN/districts/index.php) for the 2016 / 2017 year.
 
