@@ -8,7 +8,7 @@ Welcome to Kim van Wyk's currently-sparse website. I'm a happily married electro
 
 This site is a replacement for an ancient and creaking Wordpress site which finally fell over. I intend to bring its contents to this site over time, but as with almost every personal software project, this will take way longer than I think it will.
 
-You can have a look at various pieces of code and software projects I've written or contributed to at [my GitHub account](https://github.com/kimvanwyk). I use GitHub as a mirror from [my GitLab account](https://gitlab.com/kimvanwyk) - all my own projects are at GitLab.
+You can have a look at various pieces of code and software projects I've written or contributed to at [my GitLab account](https://gitlab.com/kimvanwyk). [My GitHub account](https://github.com/kimvanwyk) is almost entirely mirrored from my GitLab account - all my own projects are at GitLab. I also have a few Docker images at [my DockerHub account](https://hub.docker.com/u/kimvanwyk/).
 
 I have an infrequently posted-to [Twitter account](https://twitter.com/kim_vanwyk).
 
