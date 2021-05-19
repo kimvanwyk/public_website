@@ -14,6 +14,7 @@ You can have a look at various pieces of code and software projects I've written
 I have an infrequently posted-to [Twitter account](https://twitter.com/kim_vanwyk).
 
 I've presented a few talks at conferences, including [PyConZA](https://za.pycon.org/):
+
 * At the 2019 in-person PyConZA: [Automating infrastructure at SA Home Loans with Python (and friends)](https://www.youtube.com/watch?v=BT8Pxayqh84)
 * At the 2020 virtual PyConZA: [Laying some of the foundations so your fellow developers can start on the ground floor](https://www.youtube.com/watch?v=l8WmOM5Pukc)
 
