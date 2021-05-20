@@ -1,87 +1,92 @@
-baseURL                          = "https://kimvanwyk.co.za/"
-theme                            = "introduction"
-title                            = "Kim van Wyk's home on the web"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
-# disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
+baseURL = "https://kimvanwyk.co.za/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Kim van Wyk's home on the web"
+theme = "cupper-hugo-theme"
+# googleAnalytics = "UA-123456789-1"
+# disqusShortname = "yourdiscussshortname"
+# enableGitInfo = true
+
+# [taxonomies]
+# tag = "tags"
+
+# [permalinks]
+# post = "/:filename/"
+
+[imaging]
+quality = 99
 
 [params]
-    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
-    showRSSButton                = false                   # Show rss button in navigation
-    fadeIn                       = false                   # Turn on/off the fade-in effect
-    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
-    dateFormat                   = "2 Jan 2006"
-    # email                        = "youremail@email.com"   # E-mail address for contact section
-    # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
-    # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
-    # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
+description = "foo"
+homeMetaContent = "bar"
+footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+dateFormat = "2 Jan 2006"
+codePenUser = "someUser"
+katex = false
+hideHeaderLinks = false
+search = false
+showThemeSwitcher = false
+moveFooterToHeader = false
+logoAlt = "An alternative text description of the logo"
+# customCss = [ "css/custom_01.css", "css/custom_02.css" ]
+# customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
-    # Configure the home page
-    [params.home]
-        introHeight              = "medium"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
-        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        allPostsArchiveFormat    = true                    # show all posts in an archive format
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
-        localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "Africa/Johannesburg"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "en-UK"                 # Language specific format to use
-    [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
+# [[menu.nav]]
+# name = "Home"
+# url = "/"
+# weight = 1
 
-    # Share buttons on blog post pages
-    [params.share]
-        twitter                  = true
-        facebook                 = true
-        pinterest                = true
+# [[menu.nav]]
+# name = "Blog"
+# url = "/post/"
+# weight = 2
 
-    # Social icons appear in introduction and contact section. Add as many more as you like.
-    # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-    # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-    [[params.social]]
-        url   = "https://twitter.com/kim_vanwyk"
-        icon  = "twitter" # icon name without the 'fa-'
-        icon_pack = "fab"
-    [[params.social]]
-        url   = "https://gitlab.com/kimvanwyk"
-        icon  = "gitlab" # icon name without the 'fa-'
-        icon_pack = "fab"
-    [[params.social]]
-        url   = "https://github.com/kimvanwyk"
-        icon  = "github" # icon name without the 'fa-'
-        icon_pack = "fab"
+# [[menu.nav]]
+# name = "Tags"
+# url = "/tags/"
+# weight = 3
 
+# [[menu.nav]]
+# name = "About"
+# url = "/about/"
+# weight = 4
 
-# If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+# [[menu.nav]]
+# name = "RSS"
+# url = "/index.xml"
+# weight = 5
 
-# We only use tag as a taxonomies
-# You can add more by yourself
-[taxonomies]
-  tag = "tags"
-  series = "series"
+# [markup]
+# defaultMarkdownHandler = "goldmark"
 
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    # For styles, see https://xyproto.github.io/splash/docs/longer/all.html
-    style = "friendly"
-    tabWidth = 4
+# [markup.goldmark.extensions]
+# definitionList = true
+# footnote = true
+# linkify = true
+# strikethrough = true
+# table = true
+# taskList = true
+# typographer = true
+
+# [markup.goldmark.parser]
+# attribute = true
+# autoHeadingID = true
+
+# [markup.goldmark.renderer]
+# hardWraps = false
+# unsafe = true
+# xHTML = false
+
+# [markup.highlight]
+# codeFences = false
+# hl_Lines = ""
+# lineNoStart = 1
+# lineNos = false
+# lineNumbersInTable = true
+# noClasses = true
+# style = "monokai"
+# tabWidth = 4
+
+# [markup.tableOfContents]
+# endLevel = 6
+# startLevel = 2
