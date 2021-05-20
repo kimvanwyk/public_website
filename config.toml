@@ -7,34 +7,34 @@ theme = "cupper-hugo-theme"
 # disqusShortname = "yourdiscussshortname"
 # enableGitInfo = true
 
-# [taxonomies]
-# tag = "tags"
+[taxonomies]
+tag = "tags"
 
-# [permalinks]
-# post = "/:filename/"
+[permalinks]
+post = "/:filename/"
 
 [imaging]
 quality = 99
 
 [params]
-description = "foo"
-homeMetaContent = "bar"
-footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+description = "Stray bytes, thoughts, and detritus from many years of online interests"
+homeMetaContent = "Stray bytes, thoughts, and detritus from many years of online interests"
+footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/). Icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)"
 dateFormat = "2 Jan 2006"
-codePenUser = "someUser"
-katex = false
-hideHeaderLinks = false
+codePenUser = "kimvanwyk"
+katex = true
+hideHeaderLinks = true
 search = false
 showThemeSwitcher = false
 moveFooterToHeader = false
-logoAlt = "An alternative text description of the logo"
+logoAlt = "Image of an open empty cardboard box"
 # customCss = [ "css/custom_01.css", "css/custom_02.css" ]
 # customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
-# [[menu.nav]]
-# name = "Home"
-# url = "/"
-# weight = 1
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
 
 # [[menu.nav]]
 # name = "Blog"
@@ -56,37 +56,37 @@ logoAlt = "An alternative text description of the logo"
 # url = "/index.xml"
 # weight = 5
 
-# [markup]
-# defaultMarkdownHandler = "goldmark"
+[markup]
+defaultMarkdownHandler = "goldmark"
 
-# [markup.goldmark.extensions]
-# definitionList = true
-# footnote = true
-# linkify = true
-# strikethrough = true
-# table = true
-# taskList = true
-# typographer = true
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
 
-# [markup.goldmark.parser]
-# attribute = true
-# autoHeadingID = true
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
 
-# [markup.goldmark.renderer]
-# hardWraps = false
-# unsafe = true
-# xHTML = false
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xHTML = false
 
-# [markup.highlight]
-# codeFences = false
-# hl_Lines = ""
-# lineNoStart = 1
-# lineNos = false
-# lineNumbersInTable = true
-# noClasses = true
-# style = "monokai"
-# tabWidth = 4
+[markup.highlight]
+codeFences = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
 
-# [markup.tableOfContents]
-# endLevel = 6
-# startLevel = 2
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2

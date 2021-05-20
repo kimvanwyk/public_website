@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Kim van Wyk's home on the web"
 date: 2019-07-14T16:19:07+02:00
 ---
 
