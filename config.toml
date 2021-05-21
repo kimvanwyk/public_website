@@ -5,7 +5,7 @@ title = "Kim van Wyk's home on the web"
 theme = "cupper-hugo-theme"
 # googleAnalytics = "UA-123456789-1"
 # disqusShortname = "yourdiscussshortname"
-# enableGitInfo = true
+enableGitInfo = false
 
 [taxonomies]
 tag = "tags"
@@ -26,7 +26,7 @@ katex = true
 hideHeaderLinks = true
 search = true
 showThemeSwitcher = true
-moveFooterToHeader = true
+moveFooterToHeader = false
 logoAlt = "Image of an open empty cardboard box"
 # customCss = [ "css/custom_01.css", "css/custom_02.css" ]
 # customJs = [ "js/custom_01.js", "js/custom_02.js" ]
