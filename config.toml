@@ -56,10 +56,10 @@ name = "Blog"
 url = "/post/"
 weight = 2
 
-# [[menu.nav]]
-# name = "Tags"
-# url = "/tags/"
-# weight = 3
+[[menu.nav]]
+name = "Tags"
+url = "/tags/"
+weight = 3
 
 # [[menu.nav]]
 # name = "About"
