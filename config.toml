@@ -51,10 +51,10 @@ name = "Twitter"
 url = "https://twitter.com/kim_vanwyk"
 weight = 20
 
-# [[menu.nav]]
-# name = "Blog"
-# url = "/post/"
-# weight = 2
+[[menu.nav]]
+name = "Blog"
+url = "/post/"
+weight = 2
 
 # [[menu.nav]]
 # name = "Tags"
@@ -93,13 +93,13 @@ unsafe = true
 xHTML = false
 
 [markup.highlight]
-codeFences = false
+codeFences = true
 hl_Lines = ""
 lineNoStart = 1
 lineNos = false
-lineNumbersInTable = true
+lineNumbersInTable = false
 noClasses = true
-style = "monokai"
+style = "emacs"
 tabWidth = 4
 
 [markup.tableOfContents]
