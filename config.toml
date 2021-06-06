@@ -34,32 +34,32 @@ logoAlt = "Image of an open empty cardboard box"
 [[menu.nav]]
 name = "Home"
 url = "/"
-weight = 5
-
-[[menu.nav]]
-name = "Gitlab"
-url = "https://gitlab.com/kimvanwyk"
-weight = 10
-
-[[menu.nav]]
-name = "Github"
-url = "https://github.com/kimvanwyk"
-weight = 15
-
-[[menu.nav]]
-name = "Twitter"
-url = "https://twitter.com/kim_vanwyk"
-weight = 20
+weight = 1
 
 [[menu.nav]]
 name = "Blog"
 url = "/post/"
-weight = 2
+weight = 10
 
 [[menu.nav]]
 name = "Tags"
 url = "/tags/"
-weight = 3
+weight = 20
+
+[[menu.nav]]
+name = "Gitlab"
+url = "https://gitlab.com/kimvanwyk"
+weight = 30
+
+[[menu.nav]]
+name = "Github"
+url = "https://github.com/kimvanwyk"
+weight = 40
+
+[[menu.nav]]
+name = "Twitter"
+url = "https://twitter.com/kim_vanwyk"
+weight = 50
 
 # [[menu.nav]]
 # name = "About"
