@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "Kim van Wyk's home on the web"
 theme = "cupper-hugo-theme"
 # googleAnalytics = "UA-123456789-1"
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "kim-van-wyks-home-on-the-web"
 enableGitInfo = false
 
 [taxonomies]
