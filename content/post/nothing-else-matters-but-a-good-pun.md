@@ -6,7 +6,7 @@ title: "Nothing Else Matters but a good pun"
 
 Several of us thrashed out a very punny heavy metal conversation about Metallica today – here it is in marked-up glory.
 
-<code style="color:red"><b>Netgate:</b> &lt;3 the S&#038;M version of Nothing Else Matters</code><br/>
+<code style="color:red"><b>Netgate:</b> &lt;3 the S&M version of Nothing Else Matters</code><br/>
 <code style="color:purple">* Jeremy nods.</code><br/>
 <code>Tristan nods as well</code><br/>
 <code>Colin: man everyone is listening to Metalica lately</code><br/>
