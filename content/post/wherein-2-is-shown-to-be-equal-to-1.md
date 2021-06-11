@@ -1,5 +1,5 @@
 ---
-date: "2009-08-07"
+date: "2012-10-02"
 tags: ["geekery"]
 title: "Wherein 2 is shown to be equal to 1"
 ---

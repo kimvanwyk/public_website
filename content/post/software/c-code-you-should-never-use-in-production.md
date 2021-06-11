@@ -1,5 +1,5 @@
 ---
-date: "2006-08-05"
+date: "2012-10-01"
 tags: ["c", "code"]
 title: "C code you should never use in production"
 ---
