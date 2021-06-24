@@ -31,7 +31,7 @@ echo $(pip freeze) >> /manifest.txt;
 
 As I'm already creating a file inside the image, I include the available Python packages as additional info. The manifest file for the June 2021 image looks like this:
 
-```
+<code>
 Tag:
 210601-python3.7.4-pip21.1.2-poetry1.1.6
 
@@ -42,7 +42,7 @@ Poetry version 1.1.6
 
 Packages:
 appdirs==1.4.4 CacheControl==0.12.6 cachy==0.3.0 certifi==2021.5.30 cffi==1.14.5 chardet==4.0.0 cleo==0.8.1 clikit==0.6.2 crashtest==0.3.1 cryptography==3.4.7 distlib==0.3.2 filelock==3.0.12 html5lib==1.1 idna==2.10 importlib-metadata==1.7.0 jeepney==0.6.0 keyring==21.8.0 lockfile==0.12.2 msgpack==1.0.2 packaging==20.9 pastel==0.2.1 pexpect==4.8.0 pkginfo==1.7.0 poetry==1.1.6 poetry-core==1.0.3 ptyprocess==0.7.0 pycparser==2.20 pylev==1.4.0 pyparsing==2.4.7 requests==2.25.1 requests-toolbelt==0.9.1 SecretStorage==3.3.1 shellingham==1.4.0 six==1.16.0 tomlkit==0.7.2 urllib3==1.26.5 virtualenv==20.4.7 webencodings==0.5.1 zipp==3.4.1
-```
+</code>
 
 Once the image is built, the tag can be extracted by briefly running the container and reading the */manifest.txt"* file (handled by [Gitlab CI](https://gitlab.com/kimvanwyk/python3-poetry/-/blob/master/.gitlab-ci.yml) in this case):
 
