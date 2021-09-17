@@ -42,6 +42,11 @@ url = "/post/"
 weight = 10
 
 [[menu.nav]]
+name = "Today I Learned"
+url = "/tags/til/"
+weight = 10
+
+[[menu.nav]]
 name = "Tags"
 url = "/tags/"
 weight = 20
