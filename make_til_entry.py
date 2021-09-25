@@ -37,4 +37,7 @@ title: "Today I Learned: {arrow_date:DD/MM/YYYY} - "
 
 
 if __name__ == "__main__":
-    make_til_file(arrow.now())
+    from rich.prompt import Prompt
+
+    ds = Prompt.ask("Date for TIL file (YYMMDD):", default=f"{arrow.now():YYMMDD}")
+    make_til_file(arrow.get(ds, "YYMMDD"))
