@@ -18,4 +18,4 @@ A well-behaved tool should obviously include some or all of this information whe
 
 If it finds a *pyproject.toml* file in any of those, it stops looking and returns some project details which the source can use. 
 
-This works but it feels rather hacky. I would love to be able to import the *pyproject.toml* file directly into my source and get the project details from it but have not been able to find or figure out a way to do this. If anyone can point me in the right direction I would be very happy to stop using this hacky technique.
+This works but it feels rather hacky. I would love to be able to import the relevant details from the *pyproject.toml* file directly into my source anywhere in my project structure without worrying about where exactly it came from on the file system. I have not been able to find or figure out a way to do this. If anyone can point me in the right direction I would be very happy to stop using this hacky technique.
