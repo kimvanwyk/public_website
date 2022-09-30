@@ -4,7 +4,7 @@ tags: ["public speaking"]
 title: "Some brief tips on public speaking"
 ---
 
-I recently saw a great tweet from [Stuart Langridge (@sil)](https://mobile.twitter.com/sil) on public speaking:
+I recently saw a [great tweet](https://mobile.twitter.com/sil/status/1575776932670709760) from [Stuart Langridge (@sil)](https://mobile.twitter.com/sil) on public speaking:
 
 > Those of you who've done public speaking, if you were to give a five minute talk on getting into public speaking to a group of people, which points would you want to make sure you make in it?
 
