@@ -66,6 +66,11 @@ name = "Twitter"
 url = "https://twitter.com/kim_vanwyk"
 weight = 50
 
+[[menu.nav]]
+name = "Mastodon"
+url = "https://fosstodon.org/@kimvanwyk"
+weight = 60
+
 # [[menu.nav]]
 # name = "About"
 # url = "/about/"
