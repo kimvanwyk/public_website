@@ -15,6 +15,9 @@ I've presented a few talks at conferences, including [PyConZA](https://za.pycon.
 
 * At the 2019 in-person PyConZA: [Automating infrastructure at SA Home Loans with Python (and friends)](https://www.youtube.com/watch?v=BT8Pxayqh84)
 * At the 2020 virtual PyConZA: [Laying some of the foundations so your fellow developers can start on the ground floor](https://www.youtube.com/watch?v=l8WmOM5Pukc)
+* At the 2022 hybrid PyConZA, with the in-person portion in my hometown of eThekwini: [Turning out short-notice voting tools in Django for a suddenly-online convention](https://www.youtube.com/watch?v=OWcDr0L4-ZE)
+
+I've helped organise the 2020, 2021 and 2022 PyConZA conferences and had the privilege of co-chairing the 2021 online conference and chairing the 2022 hybrid conference.
 
 I've had the great pleasure of contributing to several of my favourite technical podcasts:
 
