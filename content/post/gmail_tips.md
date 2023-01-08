@@ -8,11 +8,22 @@ title: "A few gmail tips"
 
 ### +suffix
 
-*address+foo@gmail.com*; *address+bar@gmail.com* & *address+evilcorp@gmail.com* all come to *address@gmail.com*. 
+All of
+* *address+foo@gmail.com*
+* *address+bar@gmail.com*
+* *address+evilcorp@gmail.com*
+
+come to *address@gmail.com*. 
 
 I find this useful for determining where spam came from, by determining which provider or service I used a particular **+suffix** address with.
 
 ### Extra periods
-*add.ress@gmail.com*; *a.ddress@gmail.com* & *addre.ss@gmail.com* all come to *address@gmail.com*. 
+
+All of
+* *add.ress@gmail.com*
+* *a.ddress@gmail.com*
+* *addre.ss@gmail.com* 
+
+come to *address@gmail.com*. 
 
 I find this useful for opening additional accounts for my wife or other family members on services that stupidly insist on unique email addresses for no legitimate reason.
