@@ -6,12 +6,12 @@ title: "Accessing protected Pulumi outputs with a PGP key"
 
 I've been using [Pulumi](https://www.pulumi.com/) on a few recent projects to manage the AWS infrastructure. I'm greatly enjoying writing infrastructure config in Python and I find it generally fits my brain a bit better than Terraform. One smallish item that did confuse me when I first used it though was how to access values Pulumi quite reasonably considers to be sensitive - in this case AWS IAM user secret keys IAM users Pulumi creates. Pulumi's [aws.iam.AccessKey](https://www.pulumi.com/registry/packages/aws/api-docs/iam/accesskey/) module specifies that the secret key is available in *encrypted_secret* if a PGP public key is provided to encrypt it with. It took me a bit of time to figure out how to do that (on an Ubuntu OS in my case) - here's what I did in case it's useful to somebody else:
 
-## Make a PGP key
+### Make a PGP key
 If you don't already have a suitable PGP keypair available, you'll need to generate one. There are many resources for doing this - I've found [GitHub's instructions](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) very good, for example. I generated a keypair without a pass phrase, to make using it on the command line and in piped command chains easier.
 
 As part of this process you may need to install **gpg** or a suitable equivalent for your OS.
 
-## Export and Base64 Encode the PGP Key
+### Export and Base64 Encode the PGP Key
 Once you have a PGP key (or you're using an existing one), find the keypair's public key ID:
 
 ```bash
@@ -33,7 +33,7 @@ PGP keypairs are not text, so for ease gpg provides an ASCII-armour option to pr
 gpg --export 1234567890ABCDEF1234567890ABCDEF | base64  > base64ed_public_key.txt
 ```
 
-## Using in Pulumi
+### Using in Pulumi
 
 To use the key as a Pulumi input, supply the contents of the above base64'ed file to the *pgp_key* input. As a small Python example:
 
