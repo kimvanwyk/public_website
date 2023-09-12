@@ -19,7 +19,7 @@ subdir = f"{json_dict['date']:%y%m}"
 with fs.makedirs(subdir, recreate=True).open(fn, "w") as fh:
     json.dump(json_dict, fh)
 # obtain media file
-with fs.open(PATH, "wb") as fh:
+with fs.opendir(subdir).open(PATH, "wb") as fh:
     fh.write(MEDIA_FILE)
 ```
 
