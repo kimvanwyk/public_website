@@ -19,7 +19,7 @@ quality = 99
 [params]
 description = "Stray bytes, thoughts, and detritus from many years of online interests"
 homeMetaContent = "Stray bytes, thoughts, and detritus from many years of online interests"
-footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/). Icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)"
+footer = "[![Badge reading 'Written By a Human Not By AI'](/images/written_by_human_badge_white.svg)](https://notbyai.fyi) Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/). Icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)"
 dateFormat = "2 Jan 2006"
 codePenUser = "kimvanwyk"
 katex = true
