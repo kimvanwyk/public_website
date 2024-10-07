@@ -9,7 +9,7 @@ This site is a replacement for an ancient and creaking Wordpress site which fina
 
 You can have a look at various pieces of code and software projects I've written or contributed to at [my GitLab account](https://gitlab.com/kimvanwyk). [My GitHub account](https://github.com/kimvanwyk) is almost entirely mirrored from my GitLab account - all my own projects are at GitLab. I also have a few Docker images at [my DockerHub account](https://hub.docker.com/u/kimvanwyk/).
 
-I have an fairly infrequently posted-to [Twitter account](https://twitter.com/kim_vanwyk) and a more recent <a rel="me" href="https://fosstodon.org/@kimvanwyk">Mastodon account</a>.
+I have a fairly infrequently posted-to [Twitter account](https://twitter.com/kim_vanwyk) and a more recent <a rel="me" href="https://fosstodon.org/@kimvanwyk">Mastodon account</a>.
 
 I've presented a few talks at conferences, including [PyConZA](https://za.pycon.org/):
 
