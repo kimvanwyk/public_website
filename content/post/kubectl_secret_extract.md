@@ -1,5 +1,5 @@
 ---
-date: "2023-01-04"
+date: "2025-05-17"
 tags: ["kubectl", "kubernetes"]
 title: "One-liner to extract a Kubernetes secret with kubectl"
 ---
