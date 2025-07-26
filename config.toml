@@ -62,8 +62,8 @@ url = "https://github.com/kimvanwyk"
 weight = 40
 
 [[menu.nav]]
-name = "Twitter"
-url = "https://twitter.com/kim_vanwyk"
+name = "Bluesky"
+url = "https://bsky.app/profile/kimvanwyk.co.za"
 weight = 50
 
 [[menu.nav]]
